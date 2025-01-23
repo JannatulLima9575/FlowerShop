@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", serif;
+}
+.btn {
+  padding: 20px 43px 20px 43px;
+  border-radius: 8px;
+  background: rgb(229, 84, 115);
+  color: whitesmoke;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+.btn:hover {
+    background-color: rgba(39, 39, 39, 0.8);
+    transition: .3s ease-in-out;
+}
+/* header section  */
+header {
+  background: rgba(229, 84, 115, 0.1);
+  position: absolute;
+  width: 1920px;
+  height: 850px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 4017px;
+}
+.Banner {
+  display: flex;
+  margin: 50px 240px 0px;
+  gap: 97px;
+}
+.banner-left {
+  padding-top: 147px;
+}
+.banner-tile {
+  color: rgb(39, 39, 39);
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 96px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-bottom: 21px;
+}
+.banner-desc {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-bottom: 23px;
+}
