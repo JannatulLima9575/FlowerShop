@@ -132,10 +132,11 @@ header {
   background: rgba(167, 33, 98, 0.15);
   text-align: center;
   justify-content: center;
-  height: 60vh;
+  /* height: 60vh; */
 }
 .cart1 img {
   margin: 116px 78px 0px;
+  padding-bottom: 20px;
 }
 .cart2 {
   border-radius: 300px 300px 0px 0px;
@@ -147,6 +148,7 @@ header {
 .cart2 img {
   /* margin: 150px 78px 0px; */
   margin: 117px 47px 51px 47px;
+  padding-bottom: 23px;
 }
 .cart3 {
   border-radius: 300px 300px 0px 0px;
@@ -157,6 +159,7 @@ header {
 }
 .cart3 img {
   margin: 67px 75px 0px;
+  padding-bottom: 23px;
 }
 
 /* facilities Section  */
@@ -181,9 +184,20 @@ header {
 .facilities .img1,
 .img2 {
   padding-left: 110px;
+  padding-bottom: 32px;
 }
 .facilities .img3 {
   padding-left: 50px;
+  padding-bottom: 32px;
+}
+.atn {
+  color: rgb(39, 39, 39);
+font-size: 24px;
+font-weight: 700;
+line-height: 35px;
+letter-spacing: 0%;
+text-align: center;
+text-decoration-line: underline;
 }
 /* Media Queries for Mobile devices */
 @media (max-width: 576px) {
@@ -203,6 +217,41 @@ header {
   }
 }
 
+/* saleup section */
+.saleup {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 128px;
+  display: flex;
+  background: rgba(229, 84, 115, 0.05);
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.saleup-title {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-bottom: 24px;
+}
+.saleup-desc {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-bottom: 32px;
+}
+.saleup-left {
+  padding-left: 50px;
+}
+.saleup-right {
+  padding-right: 100px;
+  padding: 100px 0px;
+}
 /* Instagram Section  */
 .instagram {
   margin: auto 240px;
