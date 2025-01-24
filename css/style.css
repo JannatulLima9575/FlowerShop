@@ -202,6 +202,70 @@ header {
     flex-direction: column;
   }
 }
+
+/* Instagram Section  */
+.instagram {
+  margin: auto 240px;
+}
+.insta-title {
+  color: rgb(39, 39, 39);
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-bottom: 24px;
+  padding-top: 128px;
+}
+.insta-desc {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-bottom: 48px;
+}
+.insta-cart {
+  display: flex;
+  gap: 24px;
+}
+
+/* latest-deals Section  */
+.latest-deals {
+  background: url("../images/Rectangle\ 9.png");
+  margin-top: 128px;
+  height: 449px;
+  margin-bottom: 128px;
+}
+.latest-title {
+  color: rgb(39, 39, 39);
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-top: 122px;
+  padding-bottom: 16px;
+}
+.latest-desc {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-bottom: 48px;
+}
+input {
+  margin: auto 0;
+  padding: 23px 513px 22px 22px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  margin-left: 20%;
+  margin-right: 16px;
+}
 /*  Footer Section  */
 footer {
   background: rgb(17, 16, 16);
