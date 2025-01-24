@@ -4,6 +4,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+.display {
+  display: none;
+}
 body {
   font-family: "Lato", serif;
 }
@@ -59,9 +62,9 @@ header {
 @media (max-width: 576px) {
   .Banner {
     flex-direction: column-reverse;
-    margin: 5px 10px;
+    margin: 0px 10px;
     text-align: center;
-    overflow-x: hidden;
+    padding: 0px;
   }
 
   .banner-tile,
@@ -180,4 +183,21 @@ header {
 }
 .facilities .img3 {
   padding-left: 50px;
+}
+/* Media Queries for Mobile devices */
+@media (max-width: 576px) {
+  .feature-title {
+    padding-top: 40px;
+    font-size: 35px;
+  }
+  .feature-desc {
+    font-size: 15px;
+  }
+  .flower-cart {
+    flex-direction: column;
+    margin: 10px 50px;
+  }
+  .facilities {
+    flex-direction: column;
+  }
 }
