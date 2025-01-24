@@ -24,7 +24,7 @@ body {
 }
 
 /* header section  */
- header {
+header {
   background: rgba(229, 84, 115, 0.1);
   width: 100%;
 }
@@ -53,8 +53,8 @@ body {
   line-height: 30px;
   letter-spacing: 0%;
   text-align: left;
-  padding-bottom: 23px; 
-} 
+  padding-bottom: 23px;
+}
 /* Media Queries for Mobile devices */
 @media (max-width: 576px) {
   .Banner {
@@ -85,21 +85,15 @@ body {
   }
   .banner-left {
     padding-top: 0px;
-  } 
+  }
 }
 
 /* futures section  */
 .features {
-  position: absolute;
-  margin: auto 240px;
+  /* position: absolute; */
+  text-align: center;
 }
 
-.flower-cart {
-  display: flex;
-  justify-content: center;
-  gap: 20px; /* Add space between carts */
-  margin-top: 20px;
-}
 .feature-title {
   color: rgb(39, 39, 39);
   font-size: 40px;
@@ -119,40 +113,71 @@ body {
   text-align: center;
 }
 .flower-cart {
-  display: flex;
-  padding-top: 48px;
+  /* display: flex;
+ 
   position: absolute;
   height: 605px;
   margin: 0 auto;
-  gap: 24px;
+  gap: 24px; */
+  display: flex;
+  padding-top: 48px;
+  gap: 20px;
+  margin: auto 240px;
 }
 .cart1 {
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
   text-align: center;
   justify-content: center;
-  height: 63vh;
+  height: 60vh;
 }
 .cart1 img {
-  margin: 170px 78px 0px;
+  margin: 116px 78px 0px;
 }
 .cart2 {
   border-radius: 300px 300px 0px 0px;
-background: rgba(5, 151, 160, 0.15);
+  background: rgba(5, 151, 160, 0.15);
   text-align: center;
   justify-content: center;
-  height: 63vh;
+  /* height: 63vh; */
 }
 .cart2 img {
-  margin: 150px 78px 0px;
+  /* margin: 150px 78px 0px; */
+  margin: 117px 47px 51px 47px;
 }
 .cart3 {
   border-radius: 300px 300px 0px 0px;
-background: rgba(71, 125, 17, 0.15);
+  background: rgba(71, 125, 17, 0.15);
   text-align: center;
   justify-content: center;
-  height: 63vh;
+  /* height: 63vh; */
 }
 .cart3 img {
-  margin: 130px 78px 0px;
+  margin: 67px 75px 0px;
+}
+
+/* facilities Section  */
+.facilities {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin: auto 240px;
+  margin-top: 128px;
+  align-items: center;
+  height: 320px;
+}
+.facilities-title {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.facilities .img1, .img2 {
+  padding-left: 110px;
+}
+.facilities .img3 {
+  padding-left: 50px;
 }
