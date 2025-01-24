@@ -178,7 +178,8 @@ header {
   letter-spacing: 0%;
   text-align: center;
 }
-.facilities .img1, .img2 {
+.facilities .img1,
+.img2 {
   padding-left: 110px;
 }
 .facilities .img3 {
@@ -200,4 +201,42 @@ header {
   .facilities {
     flex-direction: column;
   }
+}
+/*  Footer Section  */
+footer {
+  background: rgb(17, 16, 16);
+  text-align: center;
+  width: 100%;
+  height: ;
+}
+.footer-title {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 58px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgb(229, 84, 115);
+  padding-top: 128px;
+}
+.footer-desc {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-top: 24px;
+}
+.footer-title span {
+  color: whitesmoke;
+}
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 128px;
 }
