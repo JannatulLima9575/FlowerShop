@@ -85,6 +85,8 @@ header {
   .banner-right img {
     width: 100%;
     padding-top: 28px;
+    height: 500px;
+    width: auto;
   }
   .banner-left {
     padding-top: 0px;
@@ -148,7 +150,7 @@ header {
 .cart2 img {
   /* margin: 150px 78px 0px; */
   margin: 117px 47px 51px 47px;
-  padding-bottom: 23px;
+  padding-bottom: 20px;
 }
 .cart3 {
   border-radius: 300px 300px 0px 0px;
@@ -159,7 +161,7 @@ header {
 }
 .cart3 img {
   margin: 67px 75px 0px;
-  padding-bottom: 23px;
+  padding-bottom: 20px;
 }
 
 /* facilities Section  */
@@ -213,7 +215,22 @@ text-decoration-line: underline;
     margin: 10px 50px;
   }
   .facilities {
-    flex-direction: column;
+    margin: 10px
+  }
+  .facilities .img1, .img2 {
+    padding-left: 50px;
+  }
+  .facilities .img3,
+  .facilities .img2,
+  .facilities .img1 {
+    height: 100px;
+  }
+  .facilities .img3 {
+    padding-left: 15px;
+  }
+  .facilities-title {
+    font-size: 15px;
+    padding-right: 40px;
   }
 }
 
@@ -251,6 +268,12 @@ text-decoration-line: underline;
 .saleup-right {
   padding-right: 100px;
   padding: 100px 0px;
+}
+/* Media Queries for Mobile devices */
+@media (max-width: 576px) {
+  .saleup {
+    margin-top: 50px;
+  }
 }
 /* Instagram Section  */
 .instagram {
@@ -314,6 +337,31 @@ input {
   background: rgb(255, 255, 255);
   margin-left: 20%;
   margin-right: 16px;
+}
+/* Media Queries for Mobile devices */
+@media (max-width: 576px) {
+  .instagram {
+    margin: auto 15px;
+  }
+  .insta-cart {
+    flex-direction: column; 
+  }
+  input {
+    padding: 10px 10px;
+    margin-left: 20%;
+    margin-right: 8px;
+  }
+  .insta-title  {
+    padding-top: 70px;
+  }
+  .btn {
+    padding: 7px 8px;
+    font-size: 14px;
+  }
+  .latest-deals {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
 }
 /*  Footer Section  */
 footer {
